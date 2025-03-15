@@ -1,6 +1,5 @@
 extends Camera3D
 
-
 @export var target_distance = 5
 @export var target_height = 2
 @export var speed:=20.0

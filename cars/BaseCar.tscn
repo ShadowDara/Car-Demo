@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://duy0dbkychify"]
 
-[ext_resource type="Script" path="res://cars/BaseCar.gd" id="1_iqrfq"]
+[ext_resource type="Script" uid="uid://btr2pkeitmjim" path="res://cars/BaseCar.gd" id="1_iqrfq"]
 [ext_resource type="PackedScene" uid="uid://8sl5gmdd6o6w" path="res://cars/camera/camera_3d.tscn" id="2_5wm5h"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_mm2gk"]
@@ -88,7 +88,7 @@ theme_override_font_sizes/font_size = 50
 [node name="Label" type="Label" parent="Hud"]
 offset_right = 40.0
 offset_bottom = 23.0
-text = "Arow keys to drive
+text = "Arow keys or WASD to drive
 Space to drift and break
 "
 label_settings = SubResource("LabelSettings_yc8e5")
